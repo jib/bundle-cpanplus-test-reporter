@@ -1,6 +1,6 @@
 package Bundle::CPANPLUS::Test::Reporter;
 
-$VERSION = "0.04";
+$VERSION = "0.05";
 
 1;
 
@@ -27,6 +27,8 @@ provide automated test reporting to C<testers.cpan.org>
 File::Temp
 
 HTTP::Request
+
+Net::DNS
 
 Net::SMTP
 
